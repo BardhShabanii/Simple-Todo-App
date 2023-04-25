@@ -1,0 +1,28 @@
+.container {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 7px;
+  display: block;
+}
+
+li button {
+  display: inline-block;
+}
+
+li {
+  text-align: left;
+}
+
+li:has(input:checked) label {
+    color: hsl(200, 20%, 40%);
+    text-decoration: line-through;
+  }
